@@ -1,0 +1,112 @@
+1. Write a program to print all natural numbers from 1 to n. – using while loop
+
+void main()
+{
+  int i=1;
+  while(i<=10)
+  {
+    print(i);
+    i++;
+  }
+}
+
+2. Write a program to print all natural numbers in reverse (from n to 1). – using while loop
+void main()
+{
+  int i=10;
+  while(i>=1)
+  {
+    print(i);
+    i--;
+  }
+}
+
+3. Write a program to print all even numbers between 1 to 100. – using while loop
+void main()
+{
+  int i=1;
+  while(i<=100)
+  {
+    if(i.isEven){
+      print(i);
+    }
+    i++;
+  }
+}
+
+4. Write a program to print all odd number between 1 to 100.
+void main()
+{
+  int i=1;
+  while(i<=100)
+  {
+    if(i.isOdd){
+      print(i);
+    }
+    i++;
+  }
+}
+5. Write a program to find sum of all natural numbers between 1 to n.
+void main()
+{
+  int i=1;
+  int sum=0;
+  while(i<=10)
+  {
+   sum=sum+i;
+    i++;
+   }
+  print(sum);
+}
+
+6.Write a program to find sum of all even numbers between 1 to n.
+void main()
+{
+  int i=1;
+  int sum=0;
+  while(i<=10)
+  {
+   if(i.isEven){
+      sum=sum+i;
+   }
+    i++;
+   }
+  print(sum);
+}
+
+7. Write a program to find sum of all odd numbers between 1 to n.
+void main()
+{
+  int i=1;
+  int sum=0;
+  while(i<=10)
+  {
+   if(i.isOdd){
+      sum=sum+i;
+   }
+    i++;
+   }
+  print(sum);
+}
+
+8. Write a program to print multiplication table of any number.
+void main()
+{
+  int i=0;
+  int anyNum=1;
+  while(i<=10)
+  {
+  print('$anyNum x $i = ${anyNum*i}');
+   i++;
+   }
+}
+
+9. Write a program to count number of digits in a number.
+void main(){
+  
+  var i=1234567890;
+  var length=i.toString().length;
+  print(length);
+ }
+
+
